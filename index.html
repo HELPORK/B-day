@@ -119,7 +119,7 @@ canvas{
 
 <body>
 
-<audio autoplay loop>
+<audio id="audio" loop>
 <source src="music.mp3">
 </audio>
 
@@ -131,7 +131,7 @@ canvas{
 
 <div class="card">
 <div class="glow">Happy Birthday Samikhya ❤️</div>
-<img src="pic.jpeg">
+<img touchend="document.getElementById('myAudio').play()" src="pic.jpeg">
 <p>
 Many Many Happy Returns of the day ❤️
     1/2E Level up day 🌸🌸
@@ -222,6 +222,7 @@ animate();
 
 </body>
 </html>
+
 
 
 
